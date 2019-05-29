@@ -99,6 +99,14 @@ font-size: 96px;
 text-align: center;
 padding: 40px;
 }
+.top-text{
+	display: flex;
+	justify-content: stretch;
+	padding-bottom: 25px;
+}
+h3{
+	font-size: 32px;
+}
 button{
 	font-size: 20px;
 }
@@ -134,6 +142,37 @@ span{
 	width: 275px;
 	padding: 20px;
 	margin: 20px;
+}
+.info-blocks{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+.info-blocks div{
+	border: 1px solid black;
+	width: 400px;
+}
+.service-facts{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 50px;
+
+	
+}
+.service-facts div{
+	width: 400px;
+	height: 400px;
+
+	
+}
+ul{
+	padding: 10px;
+}
+.services-info-img{
+	width: 450px;
+	height: 300px;
+	padding: 20px;
 }
 footer{
 	width: 1000;
