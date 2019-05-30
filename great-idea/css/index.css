@@ -63,4 +63,119 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+body{
+
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	max-width: 1000px;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a{
+color: lightgray;
+	margin: 20px;
+	
+}
+nav .logo{
+	justify-content: flex-end;
+	margin-left: 50px;
+}
+
+header{
+	display:flex;
+	align-items: space-around;
+	flex-wrap: wrap;
+}
+h1{
+display: inline-block;
+width: 400px;
+font-size: 96px;
+text-align: center;
+padding: 40px;
+}
+.top-text{
+	display: flex;
+	justify-content: stretch;
+	padding-bottom: 25px;
+}
+h3{
+	font-size: 32px;
+}
+button{
+	font-size: 20px;
+}
+.header-img{
+	padding: 50px;
+	margin-left: 40px;
+}
+span{
+	justify-self: center;
+	border: 1px solid black;
+}
+.top-content {
+	display: flex;
+	align-content: space-between;
+	justify-content: space-around;
+}
+.top-content div{
+	
+	width: 400px;
+	padding: 20px;
+	margin-right: 40px;
+}
+.middle-img{
+	padding: 20px;
+}
+.bottom-content {
+	display: flex;
+	align-content: space-between;
+	justify-content: space-around;
+}
+.bottom-content div{
+	display:inline-block;
+	width: 275px;
+	padding: 20px;
+	margin: 20px;
+}
+.info-blocks{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+.info-blocks div{
+	border: 1px solid black;
+	width: 400px;
+}
+.service-facts{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 50px;
+
+	
+}
+.service-facts div{
+	width: 400px;
+	height: 400px;
+
+	
+}
+ul{
+	padding: 10px;
+}
+.services-info-img{
+	width: 450px;
+	height: 300px;
+	padding: 20px;
+}
+footer{
+	width: 1000;
+	margin: auto;
+	text-align: center;
+}
