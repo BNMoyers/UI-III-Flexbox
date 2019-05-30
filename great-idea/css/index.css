@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+/* Original draft from 5/29 */
 /*body{
 
 	display: flex;
@@ -182,23 +182,30 @@ footer{
 
 body{
 
+	display: flex;
+	flex-direction: column;
 	max-width: 1000px;
-	margin: auto;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
 }
 nav a{
-	display: inline-block;
 	color: lightgray;
 	margin: 20px;
 }
+nav a:hover{
+	color: gray;
+}
 nav .logo{
-	display: inline-block;
-	position: relative;
-	top: 10px;
+	justify-content: flex-end;
 	margin-left: 50px;
 }
 
 h1{
-display: inline-block;
+display: flex;
+flex-direction: column;
+justify-content: center;
 width: 400px;
 font-size: 96px;
 text-align: center;
@@ -210,6 +217,7 @@ button{
 	border: 1px solid black;
 	width: 200px;
 	font-size: 18px;
+	margin-left:50px;
 }
 button:hover{
 	background-color: lightgray;
@@ -220,6 +228,8 @@ button:hover{
 	margin-left: 40px;
 }
 hr{
+	display: flex;
+	justify-self: center;
 	border: 0px;
 	height: 1px;
 	width: 900px;
